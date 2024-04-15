@@ -207,7 +207,7 @@ def valid(opt, model_GEN, val_loader, criterionL1, writer, epoch):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     """Path"""
-    parser.add_argument("--root", type=str, default='/content/multipleImage',
+    parser.add_argument("--root", type=str, default='/content',
                         help="Path to dataset")
     parser.add_argument("--cloud_model_path", type=str,
                         default='./data/Feature_Extrator_FS2.pth', help="path to feature extractor model")
