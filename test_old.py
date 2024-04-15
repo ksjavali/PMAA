@@ -83,7 +83,7 @@ if __name__ == "__main__":
                         help="which checkpoint you want to use for generator")
     parser.add_argument("--predict_image_path", type=str,
                         default='./image_out34', help="name of the dataset_list")
-    parser.add_argument("--root", type=str, default='/content/multipleImage',
+    parser.add_argument("--root", type=str, default='/content',
                         help="Path to dataset")
 
     """Parameters"""
