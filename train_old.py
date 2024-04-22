@@ -222,7 +222,7 @@ if __name__ == "__main__":
 
     """Parameters"""
     parser.add_argument("--n_epochs", type=int,
-                        default=100, help="Number of epochs")
+                        default=1, help="Number of epochs")
     parser.add_argument("--gan_mode", type=str, default='lsgan',
                         help="Which gan mode(lsgan/vanilla)")
     parser.add_argument("--optimizer", type=str, default='AdamW',
