@@ -231,7 +231,7 @@ if __name__ == "__main__":
     parser.add_argument("--workers", type=int, default=4,
                         help="number of cpu threads to use during batch generation")
     parser.add_argument("--batch_size", type=int,
-                        default=4, help="size of the batches")
+                        default=2, help="size of the batches")
     parser.add_argument('--lambda_L1', type=float,
                         default=100.0, help='weight for L1 loss')
     parser.add_argument('--lambda_aux', type=float,
